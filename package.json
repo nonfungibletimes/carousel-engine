@@ -1,0 +1,14 @@
+{
+  "name": "carousel-engine",
+  "version": "1.0.0",
+  "description": "HTML + Puppeteer carousel engine — renders 1080x1080 slide decks into PNGs and LinkedIn PDFs",
+  "type": "module",
+  "scripts": {
+    "render": "node src/render.mjs",
+    "render:pai3": "node src/render.mjs --template templates/pai3/slides.html --out out/pai3"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "puppeteer": "^23.0.0"
+  }
+}
